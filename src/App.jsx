@@ -1,8 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./pages/Home";
 import Header from "./components/header";
 import Footer from "./components/footer";
+import Home from "./pages/Home";
 
+import RoomDetails from "./pages/RoomDetails";
 function App() {
   const router = createBrowserRouter([
     {
@@ -10,8 +11,8 @@ function App() {
       element: <Home />,
     },
     {
-      path: "*",
-      element: <NotFound />, // Fallback for undefined routes
+      path: "/room/:id",
+      element: <RoomDetails />,
     },
   ]);
 

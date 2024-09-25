@@ -1,5 +1,11 @@
+import Rooms from "../components/Rooms";
+
 function Home() {
-  return <div>Home</div>;
+  return (
+    <>
+      <Rooms />
+    </>
+  );
 }
 
 export default Home;
