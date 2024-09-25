@@ -1,14 +1,13 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
 import { roomData } from "../data/data";
 
 export const RoomContext = createContext();
 
 function RoomProvider({ children }) {
   const [rooms, setRooms] = useState(roomData);
+  console.log(rooms);
   return (
-    <RoomContext.Provider value={"room context"}>
-      {children}
-    </RoomContext.Provider>
+    <RoomContext.Provider value={{ rooms }}>{children}</RoomContext.Provider>
   );
 }
 
