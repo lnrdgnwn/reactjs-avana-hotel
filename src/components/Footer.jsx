@@ -5,10 +5,9 @@ function Footer() {
 
   return (
     <footer
-      className={`${
-        footer ? `bg-white py-6 shadow-lg` : `bg-transparent py-8`
-      } fixed z-50 w-full transition-all duration-500`}
-    ></footer>
+      className={`${footer ? `bg-white py-6 shadow-lg` : `bg-transparent py-8`
+        } fixed z-50 w-full transition-all duration-500`}
+    >Footer</footer>
   );
 }
 
