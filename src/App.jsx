@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Header from "./components/Header";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import RoomDetails from "./pages/RoomDetails";
 
@@ -14,7 +14,6 @@ const router = createBrowserRouter([
     element: <RoomDetails />,
   },
 ]);
-
 
 function App() {
   return (
