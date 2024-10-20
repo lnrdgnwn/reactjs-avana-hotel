@@ -3,15 +3,20 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import RoomDetails from "./pages/RoomDetails";
+import NotFound from "./pages/NotFound";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/reactjs-avana-hotel/",
     element: <Home />,
   },
   {
-    path: "/room/:id",
+    path: "/reactjs-avana-hotel/room/:id",
     element: <RoomDetails />,
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 
