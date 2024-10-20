@@ -1,6 +1,7 @@
 {
   "name": "reactjs-avana-hotel",
-  "private": true,
+  "homepage": "https://lnrdgnwn.github.io/reactjs-avana-hotel",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
