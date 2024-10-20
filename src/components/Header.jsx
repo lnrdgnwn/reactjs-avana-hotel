@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import LogoWhite from '../assets/img/Avana-logo-white.png';
 import LogoDark from '../assets/img/Avana-logo-dark.png';
+import { Link } from "react-router-dom";
 
 function Header() {
   const [header, setHeader] = useState(false);
@@ -20,11 +21,11 @@ function Header() {
           {header ? <img className="w-[160px]" src={LogoDark} /> : <img className="w-[160px]" src={LogoWhite} />}
         </a>
         <nav className={`${header ? 'text-primary' : 'text-white'} font-tertiary tracking-[3px] text-[15px] items-center uppercase flex gap-x-4 lg:gap-x-8`}>
-          <a href="/#header-section" className="hover:text-accent transition scroll-smooth">Home</a>
-          <a href="/#room-section" className="hover:text-accent transition scroll-smooth scroll-p-5">Rooms</a>
-          <a href="/" className="hover:text-accent transition">Restaurant</a>
-          <a href="/" className="hover:text-accent transition">Spa</a>
-          <a href="/" className="hover:text-accent transition">Contact</a>
+          <Link to="#header-section" className="hover:text-accent transition scroll-smooth">Home</Link>
+          <Link to="#room-section" className="hover:text-accent transition scroll-smooth scroll-p-5">Rooms</Link>
+          <Link to="/restaurant" className="hover:text-accent transition">Restaurant</Link>
+          <Link to="/spa" className="hover:text-accent transition">Spa</Link>
+          <Link to="/contact" className="hover:text-accent transition">Contact</Link>
         </nav>
       </div>
     </header>
