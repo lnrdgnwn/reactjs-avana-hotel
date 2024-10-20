@@ -8,7 +8,7 @@ import { RoomContext } from '../context/RoomProvider'
 function BookForm() {
     const { handleClick } = useContext(RoomContext);
     return (
-        <form className="h-[300px] bg-green-100 w-full lg:h-[70px]">
+        <form className="h-[300px] bg-green-100 w-full lg:h-[70px]" id="room-section" >
             <div className='flex flex-col w-full h-full lg:flex-row'>
                 <div className='flex-1 border-r'>
                     <CheckIn />
