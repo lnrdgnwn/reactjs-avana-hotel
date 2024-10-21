@@ -21,11 +21,11 @@ function Header() {
           {header ? <img className="w-[160px]" src={LogoDark} /> : <img className="w-[160px]" src={LogoWhite} />}
         </a>
         <nav className={`${header ? 'text-primary' : 'text-white'} font-tertiary tracking-[3px] text-[15px] items-center uppercase flex gap-x-4 lg:gap-x-8`}>
-          <Link to="#header-section" className="hover:text-accent transition scroll-smooth">Home</Link>
-          <Link to="#room-section" className="hover:text-accent transition scroll-smooth scroll-p-5">Rooms</Link>
-          <Link to="/restaurant" className="hover:text-accent transition">Restaurant</Link>
-          <Link to="/spa" className="hover:text-accent transition">Spa</Link>
-          <Link to="/contact" className="hover:text-accent transition">Contact</Link>
+          <a href="#header-section" className="hover:text-accent transition scroll-smooth">Home</a>
+          <a href="#room-section" className="hover:text-accent transition scroll-smooth scroll-p-5">Rooms</a>
+          <a href="/restaurant" className="hover:text-accent transition">Restaurant</a>
+          <a href="/spa" className="hover:text-accent transition">Spa</a>
+          <a href="/contact" className="hover:text-accent transition">Contact</a>
         </nav>
       </div>
     </header>

@@ -14,11 +14,13 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.1.10",
+    "gh-pages": "^6.2.0",
     "react": "^18.3.1",
     "react-datepicker": "^7.5.0",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.2",
+    "react-router-hash-link": "^2.4.3",
     "reactjs-avana-hotel": "file:",
     "spinners-react": "^1.0.7",
     "swiper": "^11.1.14"
