@@ -41,13 +41,22 @@ function Header() {
           >
             Rooms
           </a>
-          <a href="./restaurant" className="hover:text-accent transition">
+          <a
+            href="/reactjs-avana-hotel/restaurant"
+            className="hover:text-accent transition"
+          >
             Restaurant
           </a>
-          <a href="./spa" className="hover:text-accent transition">
+          <a
+            href="/reactjs-avana-hotel/restaurant"
+            className="hover:text-accent transition"
+          >
             Spa
           </a>
-          <a href="./contact" className="hover:text-accent transition">
+          <a
+            href="/reactjs-avana-hotel/contact"
+            className="hover:text-accent transition"
+          >
             Contact
           </a>
         </nav>
