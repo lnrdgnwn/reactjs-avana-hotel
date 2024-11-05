@@ -1,5 +1,5 @@
 # Avana Hotel
-Screenshot :
+## Screenshot :
 ![Image](https://github.com/lnrdgnwn/reactjs-avana-hotel/blob/main/image.png)
 
 This is a personal project and does not belong to any business or commercial entity. It was created for learning and development purposes only. 
