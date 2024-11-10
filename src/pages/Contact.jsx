@@ -66,6 +66,15 @@ function Contact() {
                   placeholder="Masukkan no hp..."
                 />
               </div>
+              <div class="w-full flex flex-row items-center jsutify-center px-2 py-6 gap-x-3 border border-spacing-2 border-accent">
+                <input
+                  className="w-full focus:outline-none"
+                  type="textarea"
+                  name="textarea"
+                  id="textarea"
+                  placeholder="Write it down here!"
+                />
+              </div>
               <button
                 type="submit"
                 className="text-bold text-white font-primary border-2 w-full p-8 border-black hover:bg-white bg-accent hover:text-white hover:shadow-xl hover:transition-all"
