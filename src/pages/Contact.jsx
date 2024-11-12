@@ -68,7 +68,7 @@ function Contact() {
               </div>
               <button
                 type="submit"
-                className="text-bold font-primary border-2 w-full p-8 border-accent hover:bg-accent hover:text-white hover:shadow-xl hover:transition-all"
+                className="text-bold text-white font-primary border-2 w-full p-8 border-black hover:bg-white bg-accent hover:text-white hover:shadow-xl hover:transition-all"
               >
                 Kirim Pesan!
               </button>
